@@ -92,11 +92,7 @@ void loop() {
     //Serial.println(GPS.lastNMEA()); // this also sets the newNMEAreceived() flag to false
     if (!GPS.parse(GPS.lastNMEA())) // this also sets the newNMEAreceived() flag to false
       return;
-  
-    if (digitalRead(DIP2[3]) == OUT_State_ON)
-      Transmit_Interval = 2;
-    else
-      Transmit_Interval = 20;
+ 
 
     if ((GPS.seconds % Transmit_Interval) == DIPStatusA)
     {
