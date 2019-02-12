@@ -1,3 +1,15 @@
+/*
+ Wireless GPS - Send
+
+ This arduino code is for the Adafruit LoRa Feather M0 combined with the Adafruit GPS Featherwing. 
+ In addition to the two Adafruit units is a board with an 8 switch DIP switch connected to pin numbers 
+ 5, 6, 9, 10, 11, 12, 18, 19. 
+ This unit is designed to send the data to a similar Adafruit LoRa Feather M0. 
+
+ 12 Feb 2019
+ By Kim Hind
+ 
+*/
 // The Adafruit GPS libraries are available from http://www.github.com/adafruit/Adafruit_GPS
 
 #include <Adafruit_GPS.h> 

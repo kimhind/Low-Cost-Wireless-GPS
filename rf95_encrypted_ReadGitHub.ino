@@ -1,3 +1,15 @@
+/*
+ Wireless GPS - Read
+
+ This arduino code is for the Adafruit LoRa Feather M0 combined. 
+ This unit is designed to read the data sent from a similar unit comprising of Adafruit LoRa Feather M0 combined with the Adafruit GPS Featherwing and 8 switch DIP switch. 
+
+ 12 Feb 2019
+ By Kim Hind
+ 
+*/
+
+
 //  LoRa simple server with encrypted communications 
 // In order for this to compile you MUST uncomment the #define RH_ENABLE_ENCRYPTION_MODULE line
 // at the bottom of RadioHead.h, AND you MUST have installed the Crypto directory from arduinolibs:
