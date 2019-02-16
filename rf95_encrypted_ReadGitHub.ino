@@ -26,8 +26,7 @@ Speck myCipher;   // Instance of a Speck block ciphering
 RHEncryptedDriver myDriver(rf95, myCipher); // Instance of the driver with RF95 and Encryption
 
 float frequency = 868.0; // Change the frequency here. 
-//unsigned char encryptkey[16]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}; // The very secret key 
-unsigned char encryptkey[16]={"16charEncrypKey"}; // The very secret key 
+unsigned char encryptkey[16] = {"16charEncrypKey"}; // The Encryption Key
 
 void setup() {
   Serial.begin(9600);
